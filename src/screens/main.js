@@ -1,5 +1,5 @@
 import React from 'react';
-import Base from '../components/baje';
+import Base from '../components/base';
 
 
 const Main = () => {

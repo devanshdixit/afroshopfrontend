@@ -35,7 +35,6 @@ export default function TopNavigation() {
             }}
           />
           <button 
-          data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"
             className=""
             type="submit"
             style={{
