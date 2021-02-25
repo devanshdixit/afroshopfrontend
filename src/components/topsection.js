@@ -7,7 +7,7 @@ const TopSection = () => {
       <div className="col-md-3" style={{ maxWidth: "370px" }}>
         <p style={{ fontSize: "25px", paddingLeft: "20px" }}>My Market</p>
         <div class="">
-          <a href="#" >
+          <a href="/" >
           <div className="mt-1 media border" style={{ width: "360px" }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/sidemenu/Consumer-Electronics.png`}
@@ -25,7 +25,7 @@ const TopSection = () => {
             />
           </div>
           </a>
-          <a href="#">
+          <a href="/">
           <div className="mt-1 media border" style={{ width: "360px" }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/sidemenu/stock-photo-apparel-fashion-shirt-dress-generic.png`}
@@ -43,7 +43,7 @@ const TopSection = () => {
             />
           </div>
           </a>
-          <a href="#">
+          <a href="/">
           <div className="mt-1 media border" style={{ width: "360px" }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/sidemenu/unnamed.png`}
@@ -61,7 +61,7 @@ const TopSection = () => {
             />
           </div>
           </a>
-          <a href="#">
+          <a href="/">
           <div className="mt-1 media border" style={{ width: "360px" }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/sidemenu/wholesale sports equipment.png`}
@@ -79,7 +79,7 @@ const TopSection = () => {
             />
           </div>
           </a>
-          <a href="#">
+          <a href="/">
           <div className="mt-1 media border" style={{ width: "360px" }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/sidemenu/unnamed (1).png`}
@@ -97,7 +97,7 @@ const TopSection = () => {
             />
           </div>
           </a>
-          <a href="#">
+          <a href="/">
           <div className="mt-1 media border" style={{ width: "360px" }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/sidemenu/tools_and_supplies_category_image.png`}
@@ -115,7 +115,7 @@ const TopSection = () => {
             />
           </div>
           </a>
-          <a href="#">
+          <a href="/">
           <div className="mt-1 media border" style={{ width: "360px" }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/sidemenu/personal-care-products-council-2-537x402__38884_zoom.png`}
@@ -188,7 +188,7 @@ const TopSection = () => {
           </a>
         </div>
       </div>
-      <div className="col-md-3 border " style={{ maxWidth: "210px" }}>
+      <div className="col-md-3 " style={{ maxWidth: "210px" }}>
         <div
           className="font-weight-bold  m-1"
           style={{
@@ -256,7 +256,6 @@ const TopSection = () => {
               alt=""
               style={{ width: "66px", height: "70px" }}
             />
-            1
           </div>
         </div>
         <div

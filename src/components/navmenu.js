@@ -6,7 +6,7 @@ const NavMenu = () => {
       <div className="container-fluid border-bottom" style={{ height: "48px" }}>
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <a className="nav-link text-dark font-weight-bold btn" href="#">
+            <a className="nav-link text-dark font-weight-bold btn" href="/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -24,42 +24,42 @@ const NavMenu = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold" href="/">
               Ready To Ship
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold" href="/">
               Trade Shows
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold" href="/">
               Personal Protective Equipments
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold" href="/">
               Home School Learning
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold" href="/">
               Global Products Expo
             </a>
           </li>
           <li class="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold" href="/">
               Services
             </a>
           </li>
           <li class="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold" href="/">
               Sell on Afroshopline
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold" href="/">
               Help
             </a>
           </li>

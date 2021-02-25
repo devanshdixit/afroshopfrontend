@@ -8,8 +8,8 @@ export default function TopNavigation() {
       className="container-fluid p-2 border-bottom"
       style={{ height: "117px", width: "100%" }}
     >
-      <nav class="navbar  justify-content-center">
-        <a class="navbar-brand">
+      <nav className="navbar  justify-content-center">
+        <a className="navbar-brand" href='/'>
           <img
             className="d-flex"
             width={251.64}
@@ -61,10 +61,10 @@ export default function TopNavigation() {
             </p>
           </button>
         </form>
-        <a href="#" className="d-flex nav-link"  style={{paddingLeft:"80px"}} ><img src={`${process.env.PUBLIC_URL}/images/Icon awesome-user-alt.png`} alt="" height={48} width={48}/></a>
-        <a href="#" className="d-flex nav-link"  style={{paddingLeft:"50px"}} ><img src={`${process.env.PUBLIC_URL}/images/Icon awesome-sms.png`} alt="" height={48} width={48}/></a>
-        <a href="#" className="d-flex nav-link"  style={{paddingLeft:"50px"}} ><img src={`${process.env.PUBLIC_URL}/images/Icon awesome-comment-dollar.png`} alt="" height={48} width={48}/></a>
-        <a href="#" className="d-flex nav-link"  style={{paddingLeft:"41px"}} ><img src={`${process.env.PUBLIC_URL}/images/Icon feather-shopping-cart.png`} alt="" height={48} width={48}/></a>
+        <a href="/" className="d-flex nav-link"  style={{paddingLeft:"80px"}} ><img src={`${process.env.PUBLIC_URL}/images/Icon awesome-user-alt.png`} alt="" height={48} width={48}/></a>
+        <a href="/" className="d-flex nav-link"  style={{paddingLeft:"50px"}} ><img src={`${process.env.PUBLIC_URL}/images/Icon awesome-sms.png`} alt="" height={48} width={48}/></a>
+        <a href="/" className="d-flex nav-link"  style={{paddingLeft:"50px"}} ><img src={`${process.env.PUBLIC_URL}/images/Icon awesome-comment-dollar.png`} alt="" height={48} width={48}/></a>
+        <a href="/" className="d-flex nav-link"  style={{paddingLeft:"41px"}} ><img src={`${process.env.PUBLIC_URL}/images/Icon feather-shopping-cart.png`} alt="" height={48} width={48}/></a>
       </nav>
       {/* <div className="bg-danger mx-auto flex flex-wrap flex-col">
             <Image 
