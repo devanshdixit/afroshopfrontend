@@ -19,3 +19,23 @@
     background-image: linear-gradient(#5F65B5,#141A67);
   }
   
+  .footerheader{
+    position:relative;
+    text-align: left;
+  }
+  .footerheader:before {
+    content: "";
+    display: block;
+    border-top: solid 2px #bebebe;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+  }
+  .footerheader span {
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+  }
