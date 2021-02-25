@@ -14,7 +14,7 @@ export default function TopNavigation() {
             className="d-flex"
             width={251.64}
             height={53}
-            src={`${process.env.PUBLIC_URL}/images/afroshop logo.png`}
+            src={`${process.env.PUBLIC_URL}/afrologo.png`}
             alt=""
           />
         </a>

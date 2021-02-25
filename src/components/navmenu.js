@@ -1,12 +1,12 @@
 import React from "react";
-
+import "../styles/topsection.css";
 const NavMenu = () => {
   return (
     <>
       <div className="container-fluid border-bottom" style={{ height: "48px" }}>
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <a className="nav-link text-dark font-weight-bold" href="#">
+            <a className="nav-link text-dark font-weight-bold btn" href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -67,7 +67,7 @@ const NavMenu = () => {
       </div>
       <div className="container-fluid border-bottom">
         <ul className="nav justify-content-center m-2">
-          <div className="p-2"  style={{width:"280px",height:"50px"}}>
+          <button className="p-2 btn btn-outline-dark mr-2 buttontopnav"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
             width={34}
@@ -76,8 +76,8 @@ const NavMenu = () => {
             alt=""
           />
           <p className="d-inline p-2">AfroSound Top 10</p>
-          </div>
-          <div className="p-2"  style={{width:"280px",height:"50px"}}>
+          </button>
+          <button className="p-2 btn btn-outline-dark buttontopnav" style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
             width={34}
@@ -86,8 +86,8 @@ const NavMenu = () => {
             alt=""
           />
           <p className="d-inline p-2">Smash Net Prime Movies</p>
-          </div>
-          <div className="p-2"  style={{width:"280px",height:"50px"}}>
+          </button>
+          <button className="p-2 btn btn-outline-dark buttontopnav ml-2"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
             width={34}
@@ -96,8 +96,8 @@ const NavMenu = () => {
             alt=""
           />
           <p className="d-inline p-2">Health</p>
-          </div>
-          <div className="p-2"  style={{width:"280px",height:"50px"}}>
+          </button>
+          <button className=" ml-2 p-2 btn btn-outline-dark buttontopnav"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
             width={34}
@@ -106,8 +106,8 @@ const NavMenu = () => {
             alt=""
           />
           <p className="d-inline p-2">Books</p>
-          </div>
-          <div className="p-2"  style={{width:"280px",height:"50px"}}>
+          </button>
+          <button className="ml-2 p-2 btn btn-outline-dark buttontopnav" style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
             width={34}
@@ -116,7 +116,7 @@ const NavMenu = () => {
             alt=""
           />
           <p className="d-inline p-2">Rocketers E-cards</p>
-          </div>
+          </button>
         </ul>
       </div>
     </>

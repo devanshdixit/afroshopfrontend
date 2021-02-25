@@ -1,0 +1,21 @@
+
+.linkdesign {
+    color:black;
+}
+.linkdesign:hover{
+    color: blue;
+    font-weight: bolder;
+    font-size: large;
+    text-shadow: blue;
+}
+
+
+.buttontopnav:hover{
+    background-color: #414DEF;
+}
+
+.footercolor  {
+    background-color: #87B0B9; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#5F65B5,#141A67);
+  }
+  
