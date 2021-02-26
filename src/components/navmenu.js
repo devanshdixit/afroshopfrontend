@@ -67,6 +67,7 @@ const NavMenu = () => {
       </div>
       <div className="container-fluid border-bottom">
         <ul className="nav justify-content-center m-2">
+        <a href="http://afrosound.afroshopline.com/" target="_blank" rel="noreferrer">
           <button className="p-2 btn btn-outline-dark mr-2 buttontopnav"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -77,6 +78,8 @@ const NavMenu = () => {
           />
           <p className="d-inline p-2">AfroSound Top 10</p>
           </button>
+          </a>
+          <a href="/" target="_blank" rel="noreferrer">
           <button className="p-2 btn btn-outline-dark buttontopnav" style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -87,6 +90,8 @@ const NavMenu = () => {
           />
           <p className="d-inline p-2">Smash Net Prime Movies</p>
           </button>
+          </a>
+          <a href="http://health.afroshopline.com/" target="_blank" rel="noreferrer">
           <button className="p-2 btn btn-outline-dark buttontopnav ml-2"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -97,6 +102,8 @@ const NavMenu = () => {
           />
           <p className="d-inline p-2">Health</p>
           </button>
+          </a>
+          <a href="http://book.afroshopline.com/" target="_blank" rel="noreferrer">
           <button className=" ml-2 p-2 btn btn-outline-dark buttontopnav"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -107,6 +114,8 @@ const NavMenu = () => {
           />
           <p className="d-inline p-2">Books</p>
           </button>
+          </a>
+          <a href="/" target="_blank" rel="noreferrer">
           <button className="ml-2 p-2 btn btn-outline-dark buttontopnav" style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -117,6 +126,7 @@ const NavMenu = () => {
           />
           <p className="d-inline p-2">Rocketers E-cards</p>
           </button>
+          </a>
         </ul>
       </div>
     </>

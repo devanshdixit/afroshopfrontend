@@ -5,6 +5,7 @@ const NavMenu1   = () => {
     <>
       <div className="container-fluid border mt-2">
         <ul className="nav justify-content-center m-2">
+        <a href="/" target="_blank" rel="noreferrer">
           <button className="p-2 btn btn-outline-dark mr-2 buttontopnav"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -15,6 +16,8 @@ const NavMenu1   = () => {
           />
           <p className="d-inline p-2">AfroMart</p>
           </button>
+          </a>
+        <a href="http://afrotradeshow.afroshopline.com/" target="_blank" rel="noreferrer">
           <button className="p-2 btn btn-outline-dark buttontopnav" style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -25,6 +28,8 @@ const NavMenu1   = () => {
           />
           <p className="d-inline p-2">Afro Trade Show</p>
           </button>
+          </a>
+        <a href="/" target="_blank" rel="noreferrer">
           <button className="p-2 btn btn-outline-dark buttontopnav ml-2"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -35,6 +40,8 @@ const NavMenu1   = () => {
           />
           <p className="d-inline p-2">Fashion & Lifestyle</p>
           </button>
+          </a>
+        <a href="/" target="_blank" rel="noreferrer">
           <button className=" ml-2 p-2 btn btn-outline-dark buttontopnav"  style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -45,6 +52,8 @@ const NavMenu1   = () => {
           />
           <p className="d-inline p-2">Rocketers Global Collection</p>
           </button>
+          </a>
+        <a href="http://afrogames.afroshopline.com/" target="_blank" rel="noreferrer">
           <button className="ml-2 p-2 btn btn-outline-dark buttontopnav" style={{width:"280px",height:"50px"}}>
           <img
             className="d-inline"
@@ -55,6 +64,7 @@ const NavMenu1   = () => {
           />
           <p className="d-inline p-2">Afro Games</p>
           </button>
+          </a>
         </ul>
       </div>
     </>

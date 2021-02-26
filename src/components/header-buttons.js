@@ -4,8 +4,9 @@ export default function HeaderButtons() {
     <div className="container-fluid mt-2 border-bottom">
       <div className="row">
         <div className="col ">
-          <div
-            className="text-center border"
+        <a href="/" target="_blank" rel="noreferrer">
+          <button 
+            className="text-center border btn"
             style={{
               borderRadius: "40px",
               width: "215px",
@@ -22,11 +23,13 @@ export default function HeaderButtons() {
               alt=""
             />
             <p className="d-inline">Properties</p>
-          </div>
+          </button>
+          </a>
         </div>
         <div className="col ">
-          <div
-            className="text-center border"
+          <a href="http://travels.afroshopline.com/" target="_blank" rel="noreferrer">
+          <button 
+            className="text-center border btn"
             style={{
               borderRadius: "40px",
               width: "215px",
@@ -40,15 +43,17 @@ export default function HeaderButtons() {
               src={`${process.env.PUBLIC_URL}/images/sahara-bus-travels-service-500x500.png`}
               alt=""
             />
-            <p className="d-inline">Travels</p>
-          </div>
+            <p className="ml-2 d-inline text-dark">Travels</p>
+          </button>
+          </a>
         </div>
         <div className="col ">
-          <div
-            className="text-center border"
+        <a href="http://pickuplocations.afroshopline.com/" target="_blank" rel="noreferrer">
+          <button 
+            className="text-center border btn"
             style={{
               borderRadius: "40px",
-              width: "215px",
+              width: "250px",
               height: "52px",
               borderColor: "#D9CFCF",
             }}
@@ -60,11 +65,13 @@ export default function HeaderButtons() {
               alt=""
             />
             <p className="d-inline">Pick Up Locations</p>
-          </div>
+          </button>
+          </a>
         </div>
         <div className="col ">
-          <div
-            className="text-center border"
+        <a href="/" target="_blank" rel="noreferrer">
+          <button 
+            className="text-center border btn"
             style={{
               borderRadius: "40px",
               width: "215px",
@@ -79,11 +86,13 @@ export default function HeaderButtons() {
               alt=""
             />
             <p className="d-inline">Gift Ideas</p>
-          </div>
+          </button>
+          </a>
         </div>
         <div className="col ">
-          <div
-            className="text-center border"
+          <a href="http://afropay.afroshopline.com/" target="_blank" rel="noreferrer">
+          <button 
+            className="text-center border btn"
             style={{
               borderRadius: "40px",
               width: "215px",
@@ -98,7 +107,8 @@ export default function HeaderButtons() {
               alt=""
             />
             <p className="d-inline">Afro Pay</p>
-          </div>
+          </button>
+          </a>
         </div>
       </div>
     </div>
