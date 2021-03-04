@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Base from "../components/base";
 import NavMenu from "../components/navmenu";
 import NavMenu1 from "../components/navmenu1";
@@ -12,7 +13,7 @@ const Main = () => {
       <TopSection />
       <NavMenu1 />
       <div className="conatiner-fluid d-flex justify-content-center">
-        <img src={`${process.env.PUBLIC_URL}/images/Group 51.png`} alt="" />
+        <img src={`${process.env.PUBLIC_URL}/images/Group 51.png`} className="img-fluid" alt="" />
       </div>
       <div className="row  justify-content-center">
         <div className="col-md-6" style={{ maxWidth: "820px" }}>
@@ -118,6 +119,7 @@ const Main = () => {
                 <img src={`${process.env.PUBLIC_URL}/images/mainscreen/Color_circle_(hue-sat).png`} className="d-inline" alt="" />
                 <p className="d-inline ml-2 ">Global Original Sources</p></div>
             <div class="d-flex flex-wrap bg-light">
+            <Link to="/productpage">
               <div class="p-1 border m-1">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mainscreen/images.png`}
@@ -129,6 +131,8 @@ const Main = () => {
                   <br /> Trending Now
                 </p>
               </div>
+              </Link>
+              <Link to="/productpage">
               <div class="p-1 border m-1">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mainscreen/024307_bla_featherweight_extreme_down_padded_jacket_men_ss20_01.png`}
@@ -140,6 +144,8 @@ const Main = () => {
                   <br /> Trending Now
                 </p>
               </div>
+              </Link>
+              <Link to="/productpage">
               <div class="p-1 border m-1">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mainscreen/1195071-1.png`}
@@ -151,6 +157,8 @@ const Main = () => {
                   <br /> Trending Now
                 </p>
               </div>
+              </Link>
+              <Link to="/productpage">
               <div class="p-1 border m-1">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mainscreen/396415709ca36dc407225f2465cd2146.png`}
@@ -162,6 +170,7 @@ const Main = () => {
                   <br /> Trending Now
                 </p>
               </div>
+              </Link>
             </div>
             <div class="d-flex flex-wrap bg-light">
               <div class="p-1 border m-1">

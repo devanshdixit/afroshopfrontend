@@ -3,8 +3,8 @@ import "../styles/topsection.css"
 
 const TopSection = () => {
   return (
-    <div className="container-fluid row d-flex justify-content-center pt-2">
-      <div className="col-md-3" style={{ maxWidth: "370px" }}>
+    <div className="container-fluid row d-flex justify-content-center">
+      <div className="col-sm-3">
         <p style={{ fontSize: "25px", paddingLeft: "20px" }}>My Market</p>
         <div class="">
           <a href="/" >
@@ -153,7 +153,7 @@ const TopSection = () => {
           </a>
         </div>
       </div>
-      <div className="col-md-6">
+      <div className="col-sm-6">
         <div id="demo" class="carousel slide" data-ride="carousel">
           <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -188,9 +188,10 @@ const TopSection = () => {
           </a>
         </div>
       </div>
-      <div className="col-md-3 " style={{ maxWidth: "210px" }}>
+      <div className="col-sm-3  bg-warning row">
+        <div className="col-sm-6">
         <div
-          className="font-weight-bold  m-1"
+          className="font-weight-bold  mt-1 mb-1 mr-1" 
           style={{
             height: "43px",
             width: "208px ",
@@ -258,6 +259,8 @@ const TopSection = () => {
             />
           </div>
         </div>
+        </div>
+        <div className="col-sm-6">
         <div
           className="bg-white m-1 border"
           style={{
@@ -288,6 +291,37 @@ const TopSection = () => {
             />
           </div>
         </div>
+        <div
+          className="bg-white m-1 border"
+          style={{
+            height: "150px",
+            width: "208px",
+            paddingLeft: "8px",
+          }}
+        >
+          <p className="font-weight-bold text-danger">
+            Virtual Sourcing Solution
+          </p>
+          <div className="">
+            <button
+              style={{
+                width: "116px",
+                backgroundColor: "#414DEF",
+                borderRadius: "20px",
+              }}
+              className="text-white btn pt-0"
+            >
+              Source Now
+            </button>
+            <img
+              src={`${process.env.PUBLIC_URL}/images/roxie_gray_accent-chair_2008335_753044.png`}
+              className="img-fluid img-thumbnail"
+              style={{ width: "66px", height: "70px" }}
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   );
